@@ -1,8 +1,9 @@
 package com.company.animals;
 
 public class Animal {
-    private String name;
-    public Integer weight;
+    protected String name;
+    protected Integer weight;
+    protected Integer currentPosition = 0;
 
     public Animal(String name, Integer weight) {
         this.name = name;
@@ -14,5 +15,9 @@ public class Animal {
 
     public void voice(){
         System.out.println("Voice!");
+    }
+
+    public void runForward(Integer length){
+        this.currentPosition += length;
     }
 }
