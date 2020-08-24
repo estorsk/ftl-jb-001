@@ -1,7 +1,7 @@
 package com.company.animals;
 
 public class Bird extends Animal{
-    private Boolean flyModeActive = false;
+    protected Boolean flyModeActive = false;
 
     public void takeOff(){
         flyModeActive = true;
