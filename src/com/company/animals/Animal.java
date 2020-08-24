@@ -17,7 +17,7 @@ public class Animal {
         System.out.println("Voice!");
     }
 
-    public void runForward(Integer length){
+    protected void runForward(Integer length){
         this.currentPosition += length;
     }
 }
