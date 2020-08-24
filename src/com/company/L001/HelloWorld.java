@@ -4,7 +4,7 @@ public class HelloWorld {
 
     public static void run(){
 
-        System.out.println("1 2 3 4 5");
+        System.out.println(5 + " " + 4 + " " + 3 + " " + 2 + " " + 1);
 
     }
 }
